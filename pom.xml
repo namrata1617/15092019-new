@@ -384,7 +384,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>2.3</version>
+                <version>3.0.0</version>
                 <configuration>
                     <warName>petclinic</warName>
                 </configuration>
@@ -426,15 +426,6 @@
                 </configuration>
             </plugin>
 
-
-
-<plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.6</version>
-  <configuration>
-    <failOnMissingWebXml>false</failOnMissingWebXml>
-  </configuration>
-</plugin>
 
 
 
